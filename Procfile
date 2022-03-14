@@ -1,1 +1,2 @@
-web: waitress showtime.wsgi --log-file -
+
+web:waitress showtime.wsgi:application
